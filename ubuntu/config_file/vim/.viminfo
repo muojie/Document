@@ -1,0 +1,726 @@
+# 这个 viminfo 文件是由 Vim 7.2 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/USB_
+
+# 上个 替换 Search 图案：
+~MSle0&\%1c...
+
+# 最后替换的字符串
+$
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:wq
+:q!
+:%!xxd
+:ts
+:w
+:vs NetworkController.java
+:vs ../../../../mtk75cu_emmc_gb2/kernel/touchpanel/gt813/tpd_custom_gt813.h
+:set nonu
+:Tlist
+:121
+:vs mksdcard.sh
+:vs ../mt9p017_raw/mt9p017_Sensor.c
+:vs ../mt9p017_raw/
+:vs ../ov5640_raw/ov5640_Sensor.c
+:2577
+:vs ../inc/OV5640AF.h
+:vs ../ov5640af/ov5640af.c
+:q:q
+:67
+:vs ../otm9608a_mipi/otm9608a_mipi.c
+:vs ../src/kd_sensorlist.h
+:set nu
+:vs ../ft5206/ft5206_driver.c
+:123
+:vs ../ov5647_raw/ov5647_Sensor.c
+:.,.+65q
+:vs ov5640_Sensor.h
+:vs ../src/sensorlist.cpp
+:vs ov5642yuv_Sensor.h
+:vs ../ov5642_yuv/ov5642yuv_Sensor.c
+:vs ~/source/dp501a/mediatek/config/sangfei77_cu_ics2/ProjectConfig.mk
+:vs ov5640_Camera_Sensor_para.h
+:vs ov5640_CameraCustomized.h
+:vs ../fm50af/FM50AF.c
+:vs ../../goagent/local/proxy.ini
+:vs ../hi704_yuv/hi704yuv_Sensor.c
+:vs ov5640yuv_Sensor.h
+:vs ov5640yuv_CameraCustomized.h
+:vs ../common_mt6628/Makefile
+:vs ../common/Makefile
+:vs ../ov5642_yuv/feature_ov5642_yuv.cpp
+:vs ../ov5642_yuv/cfg_ftbl_ov5642_yuv.h
+:vs ../ov5642_yuv/camera_tuning_para_ov5642_yuv.cpp
+:vs ../ov5642_yuv/camera_sensor_para_ov5642_yuv.h
+:vs ../ov5642_yuv/camera_info_ov5642_yuv.h
+:vs ~/src/dp500/mediatek/custom/common/hal/
+:vs ../ov5642_yuv/camera_info_ov5642_yuv.cpp
+:vs ../ov5640_yuv/feature_ov5640_yuv.cpp
+:vs sensorlist.cpp
+
+# 查找字符串 历史记录 (从新到旧)：
+?/USB_
+?/OV5640
+?/OV
+?/fi
+?/========
+?/======
+?/=========
+?/adb
+? \<USB_MS_PRODUCT_ID\>
+? \<USB\>
+? \<idVendor\>
+?/0bb4
+?/0C03
+?/0BB4
+?/0x0bb4
+? \<g_Support_USBIF\>
+?/CONFIG_USB_IF
+? \<updateTelephonySignalStrength\>
+? \<getCdmaLevel\>
+? \<signalStrength\>
+? \<PhoneStateListener\>
+?/sim1 befor
+?/Slog
+?/PhoneStateListener
+? \<DEBUG\>
+?/TAG
+?/DEBUG
+? \<true\>
+?/onSignalStrengthsChanged
+?/MTK_DT_SUPPORT
+? \<tpd_key_up\>
+? \<finger_num\>
+? \<TPD_HAVE_TOUCH_KEY\>
+? \<TPD_HAVE_BUTTON\>
+? \<tpd_button_init\>
+? \<g_tpd_drv\>
+? \<tpd_driver_list\>
+? \<tpd_device_driver\>
+? \<tpd_local_init\>
+? \<tpd_keys_dim\>
+?/tpd_button(
+? \<mtk_properties_attr_group\>
+? \<mtk_properties_attrs\>
+? \<mtk_virtual_keys_attr\>
+? \<mtk_virtual_keys_show\>
+?/hwcomposer
+?/turnElectronBeamOff
+?/DisplayHardware&
+?/storageDescription
+?//--------------------------------------------------------
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	LINE	0
+	#define TPD_KEY_COUNT           3
+"1	LINE	0
+				LOGD(
+"2	LINE	0
+	#define TPD_KEYS { KEY_MENU, KEY_BACK }
+"3	LINE	0
+	#define TPD_KEYS_DIM {
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
+	//extern void MT9P017MIPI_write_cmos_sensor(kal_uint32 addr, kal_uint32 para);
+""-	CHAR	0
+	3
+
+# 文件标记:
+'0  1  0  ~/.gitk
+'1  7  1  ~/.gitconfig
+'2  55  7  ~/src/dp501/kernel/drivers/usb/storage/usual-tables.c
+'3  1085  15  ~/src/dp501/kernel/drivers/usb/storage/usb.c
+'4  236  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+'5  51  0  ~/src/dp501/kernel/drivers/usb/storage/Makefile
+'6  2  11  /media/5AE04E48E04E2A99/my_document/Book/.git/COMMIT_EDITMSG
+'7  132  4  ~/src/dp410/mediatek/custom/out/marlin75_a2_tb/kernel/imgsensor/ov5640_Sensor.o
+'8  95751  58  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+'9  1  0  ~/桌面/2012_11_14/image410/kernel_marlin75_a2_tb.bin
+
+# 跳转列表 (从新到旧):
+-'  1  0  ~/.gitk
+-'  7  1  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  55  7  ~/src/dp501/kernel/drivers/usb/storage/usual-tables.c
+-'  19  4  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  3  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  2  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  1  0  ~/src/dp501/kernel/drivers/usb/storage/usual-tables.c
+-'  1085  15  ~/src/dp501/kernel/drivers/usb/storage/usb.c
+-'  81  4  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  27  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  26  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  1083  0  ~/src/dp501/kernel/drivers/usb/storage/usb.c
+-'  236  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  235  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  234  9  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  233  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  232  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  226  11  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  237  9  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  51  0  ~/src/dp501/kernel/drivers/usb/storage/Makefile
+-'  85  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  84  0  ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+-'  1  0  ~/src/dp501/kernel/drivers/usb/storage/Makefile
+-'  2  11  /media/5AE04E48E04E2A99/my_document/Book/.git/COMMIT_EDITMSG
+-'  1  0  /media/5AE04E48E04E2A99/my_document/Book/.git/COMMIT_EDITMSG
+-'  132  4  ~/src/dp410/mediatek/custom/out/marlin75_a2_tb/kernel/imgsensor/ov5640_Sensor.o
+-'  1  0  ~/src/dp410/mediatek/custom/out/marlin75_a2_tb/kernel/imgsensor/ov5640_Sensor.o
+-'  95751  58  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  88930  56  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  88669  64  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  88025  64  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  86268  54  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  78718  50  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  76741  55  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  74951  51  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  66370  60  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  62987  53  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  57746  55  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  53376  59  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  52029  56  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  20008  52  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  17013  53  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  6651  58  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  3651  59  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  3448  63  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  1  0  ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+-'  1  0  ~/桌面/2012_11_14/image410/kernel_marlin75_a2_tb.bin
+-'  10130  0  ~/桌面/2012_11_14/image410/boot.img
+-'  1  0  ~/桌面/2012_11_14/image410/boot.img
+-'  1  0  ~/src/dp410/out/target/product/marlin75_a2_tb/boot.img
+-'  193  0  ~/src/dp501/system/core/adb/Android.mk
+-'  3  0  ~/src/dp501/system/core/adb/__Tag_List__
+-'  2  0  ~/src/dp501/system/core/adb/__Tag_List__
+-'  1  0  ~/src/dp501/system/core/adb/Android.mk
+-'  1  0  ~/src/dp500/system/core/adb/Android.mk
+-'  1  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  3  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  2  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  6  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  5  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  41  1  ~/src/dp500/system/core/adb/usb_vendors.h
+-'  9  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  8  0  ~/src/dp500/system/core/adb/__Tag_List__
+-'  1  0  ~/src/dp500/system/core/adb/usb_vendors.h
+-'  165  0  ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/mtk_usb_custom.c
+-'  3  0  ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/__Tag_List__
+-'  2  0  ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/__Tag_List__
+-'  1  0  ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/mtk_usb_custom.c
+-'  50  34  ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/mtk_usb_custom.h
+-'  32  4  ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/__Tag_List__
+-'  3  0  ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/__Tag_List__
+-'  2  0  ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/__Tag_List__
+-'  1  0  ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/mtk_usb_custom.h
+-'  44  0  ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/mt6573_usb_custom.h
+-'  3  0  ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/__Tag_List__
+-'  2  0  ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/__Tag_List__
+-'  1  0  ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/mt6573_usb_custom.h
+-'  1  12  ~/src/dp501/mediatek/config/out/sangfei77_cu_ics2/meta_init.rc
+-'  347  42  ~/src/dp501/mediatek/config/out/sangfei77_cu_ics2/meta_init.rc
+-'  359  42  ~/src/dp501/mediatek/config/out/sangfei77_cu_ics2/meta_init.rc
+-'  1  0  ~/src/dp501/kernel/drivers/staging/usbip/userspace/usb.ids
+-'  3369  1  ~/src/dp501/kernel/drivers/staging/usbip/userspace/usb.ids
+-'  8309  0  ~/src/dp501/kernel/drivers/staging/usbip/userspace/usb.ids
+-'  361  1  ~/src/dp501/kernel/drivers/usb/serial/ipaq.c
+-'  16  4  ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+-'  3  0  ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+-'  2  0  ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+-'  1  0  ~/src/dp501/kernel/drivers/usb/serial/ipaq.c
+-'  32  0  ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+-'  31  0  ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+-'  1257  26  ~/src/dp501/kernel/fs/hfsplus/tables.c
+-'  236  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  235  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  234  9  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  233  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  232  7  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  226  11  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+-'  237  9  ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/.gitk
+	"	1	0
+
+> ~/.gitconfig
+	"	7	1
+
+> ~/src/dp501/kernel/drivers/usb/storage/usual-tables.c
+	"	55	7
+
+> ~/src/dp501/kernel/drivers/usb/storage/__Tag_List__
+	"	19	4
+	.	25	0
+	+	84	0
+	+	123	0
+	+	103	0
+	+	83	0
+	+	1	0
+	+	25	0
+
+> ~/source/dp501a/kernel/drivers/usb/storage/usual-tables.c
+	"	58	7
+
+> ~/source/dp501a/kernel/drivers/usb/storage/__Tag_List__
+	"	9	4
+	.	354	0
+	+	359	0
+	+	25	0
+	+	40	0
+	+	44	0
+	+	149	0
+	+	281	0
+	+	354	0
+
+> ~/source/dp501a/kernel/include/linux/usb_usual.h
+	"	77	41
+
+> ~/source/dp501a/kernel/drivers/usb/storage/unusual_devs.h
+	"	2043	0
+
+> ~/source/dp501a/external/kernel-headers/original/linux/usb.h
+	"	504	0
+
+> ~/source/dp501a/kernel/include/linux/usb.h
+	"	685	28
+
+> ~/source/dp501a/bionic/libc/kernel/common/linux/mod_devicetable.h
+	"	45	13
+
+> ~/src/dp501/kernel/drivers/usb/storage/usb.c
+	"	1085	15
+
+> ~/src/dp501/mediatek/config/sangfei77_cu_ics2/autoconfig/kconfig/project
+	"	236	7
+
+> ~/src/dp501/mediatek/config/mt6577/autoconfig/kconfig/platform
+	"	1439	7
+
+> /var/log/messages
+	"	2180	54
+
+> ~/source/dp501a/kernel/drivers/usb/storage/usb.c
+	"	1073	28
+
+> ~/source/dp501a/external/kernel-headers/original/linux/kernel.h
+	"	221	28
+
+> ~/source/dp501a/kernel/drivers/usb/storage/libusual.c
+	"	55	0
+
+> ~/source/dp501a/kernel/drivers/usb/core/driver.c
+	"	865	19
+
+> ~/source/dp501a/bionic/libc/kernel/common/linux/device.h
+	"	42	10
+
+> ~/source/dp501a/bionic/libc/kernel/common/linux/klist.h
+	"	21	7
+
+> ~/source/dp501a/kernel/include/linux/klist.h
+	"	20	13
+
+> ~/source/dp501a/kernel/drivers/base/driver.c
+	"	225	8
+
+> ~/source/dp501a/bionic/libc/kernel/common/linux/module.h
+	"	91	54
+
+> ~/source/dp501a/kernel/drivers/staging/keucr/scsiglue.c
+	"	348	23
+
+> ~/source/dp501a/kernel/drivers/scsi/hosts.c
+	"	251	13
+
+> ~/source/dp501a/kernel/drivers/staging/keucr/usb.h
+	"	22	0
+
+> ~/source/dp501a/kernel/drivers/usb/storage/usb.h
+	"	169	29
+
+> ~/source/dp501a/kernel/include/linux/usb/storage.h
+	"	21	14
+
+> ~/src/dp501/kernel/drivers/usb/storage/Makefile
+	"	1	0
+
+> ~/src/dp501/kernel/drivers/usb/storage/initializers.h
+	"	50	0
+
+> ~/src/dp501/kernel/drivers/usb/storage/initializers.c
+	"	106	0
+
+> /media/5AE04E48E04E2A99/my_document/Book/.git/COMMIT_EDITMSG
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/src/dp410/mediatek/custom/out/marlin75_a2_tb/kernel/imgsensor/ov5640_Sensor.o
+	"	132	4
+
+> ~/src/dp410/out/target/product/marlin75_a2_tb/kernel
+	"	1	0
+
+> ~/src/dp410/out/target/product/marlin75_a2_tb/kernel_marlin75_a2_tb.bin
+	"	95751	58
+	.	1	0
+	+	1	0
+
+> ~/桌面/2012_11_14/image410/kernel_marlin75_a2_tb.bin
+	"	1	0
+
+> ~/桌面/2012_11_14/image410/boot.img
+	"	10130	0
+
+> ~/src/dp410/out/target/product/marlin75_a2_tb/boot.img
+	"	1	0
+
+> ~/src/dp501/system/core/adb/Android.mk
+	"	193	0
+
+> ~/src/dp501/system/core/adb/__Tag_List__
+	"	3	0
+	.	34	0
+	+	1	0
+	+	34	0
+
+> ~/src/dp500/system/core/adb/Android.mk
+	"	1	0
+
+> ~/src/dp500/system/core/adb/__Tag_List__
+	"	1	0
+	.	4	0
+	+	5	0
+	+	12	0
+	+	2	0
+	+	7	0
+	+	4	0
+
+> ~/src/dp500/system/core/adb/usb_vendors.h
+	"	41	1
+
+> ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/mtk_usb_custom.c
+	"	165	0
+
+> ~/src/dp501/mediatek/custom/mt6577/kernel/usb/src/__Tag_List__
+	"	3	0
+	.	14	0
+	+	1	0
+	+	14	0
+
+> ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/mtk_usb_custom.h
+	"	50	34
+
+> ~/src/dp500/mediatek/custom/out/nollec73_gb/kernel/usb/__Tag_List__
+	"	32	4
+	.	42	0
+	+	22	0
+	+	42	0
+
+> ~/src/dp500/mediatek/custom/mt6573/kernel/usb/src/mtk_usb_custom.h
+	"	49	0
+
+> ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/mt6573_usb_custom.h
+	"	44	0
+
+> ~/src/dp500/mediatek/custom/nollec73_gb/preloader/inc/__Tag_List__
+	"	3	0
+	.	10	0
+	+	10	0
+
+> ~/src/dp501/mediatek/config/out/sangfei77_cu_ics2/meta_init.rc
+	"	1	12
+
+> ~/src/dp501/kernel/drivers/staging/usbip/userspace/usb.ids
+	"	1	0
+
+> ~/src/dp501/kernel/drivers/usb/serial/ipaq.c
+	"	361	1
+
+> ~/src/dp501/kernel/drivers/usb/serial/__Tag_List__
+	"	16	4
+	.	30	0
+	+	59	0
+	+	1	0
+	+	30	0
+
+> ~/src/dp501/kernel/fs/hfsplus/tables.c
+	"	1257	26
+
+> ~/src/dp501/kernel/fs/hfsplus/__Tag_List__
+	"	5	4
+	.	8	0
+	+	8	0
+
+> ~/src/dp501/mediatek/custom/sangfei77_cu_ics2/preloader/inc/cust_usb.h
+	"	57	0
+
+> ~/src/dp501/mediatek/custom/sangfei77_cu_ics2/preloader/inc/__Tag_List__
+	"	13	4
+	.	14	0
+	+	2	0
+	+	33	0
+	+	1	0
+	+	14	0
+
+> ~/src/dp501/mediatek/platform/mt6577/kernel/drivers/power/mt6577_battery.c
+	"	1818	7
+
+> ~/src/dp501/mediatek/platform/mt6577/kernel/drivers/power/__Tag_List__
+	"	165	4
+	.	278	0
+	+	2	0
+	+	555	0
+	+	1	0
+	+	278	0
+
+> ~/src/dp501/mediatek/platform/mt6577/preloader/src/drivers/platform.c
+	"	197	13
+
+> ~/src/dp501/mediatek/platform/mt6577/preloader/src/drivers/__Tag_List__
+	"	24	4
+	.	42	0
+	+	42	0
+
+> ~/src/dp501/mediatek/platform/mt6577/preloader/src/core/handshake_usb.c
+	"	76	4
+
+> ~/src/dp501/mediatek/platform/mt6577/preloader/src/core/__Tag_List__
+	"	9	4
+	.	16	0
+	+	1	0
+	+	16	0
+
+> ~/src/dp501/mediatek/config/sangfei77_cu_ics2/ProjectConfig.mk
+	"	180	0
+
+> ~/src/dp501/mediatek/config/sangfei77_cu_ics2/__Tag_List__
+	"	180	4
+	.	375	0
+	+	376	0
+	+	1123	0
+	+	2	0
+	+	749	0
+	+	1	0
+	+	375	0
+
+> ~/source/dp501a/mediatek/platform/mt6577/kernel/drivers/power/mt6577_battery.c
+	"	4719	0
+
+> ~/source/dp501a/mediatek/platform/mt6577/kernel/drivers/power/__Tag_List__
+	"	168	4
+	.	1087	0
+	+	278	0
+	+	322	0
+	+	377	0
+	+	1087	0
+
+> ~/source/dp501a/mediatek/custom/sangfei77_cu_ics2/kernel/battery/battery/cust_battery.h
+	"	44	0
+
+> ~/source/dp501a/mediatek/platform/mt6577/kernel/core/include/mach/mtk_musb.h
+	"	105	0
+
+> ~/source/dp501a/mediatek/platform/mt6577/kernel/drivers/power/upmu_common.c
+	"	2101	6
+
+> ~/my_source/linux/sdcard/format/mksdcard.sh
+	"	31	0
+
+> ~/my_source/linux/sdcard/format/__Tag_List__
+	"	1	0
+	.	4	0
+	+	4	0
+
+> ~/src/dp501/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkControllerGemini.java
+	"	710	23
+	^	516	44
+	.	514	0
+	+	516	30
+	+	514	29
+	+	516	43
+	+	514	0
+
+> ~/src/dp501/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/__Tag_List__
+	"	166	4
+	.	187	0
+	+	2052	0
+	+	2012	0
+	+	1972	0
+	+	1853	0
+	+	1932	0
+	+	1892	0
+	+	1852	0
+	+	1733	0
+	+	1812	0
+	+	1693	0
+	+	1772	0
+	+	1732	0
+	+	1692	0
+	+	1385	0
+	+	1652	0
+	+	1518	0
+	+	932	0
+	+	1384	0
+	+	1117	0
+	+	1250	0
+	+	931	0
+	+	374	0
+	+	745	0
+	+	188	0
+	+	559	0
+	+	2	0
+	+	373	0
+	+	187	0
+
+> ~/src/dp600/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/StatusBarPolicy.java
+	"	1295	27
+
+> ~/src/dp600/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/__Tag_List__
+	"	100	4
+	.	144	0
+	+	1	0
+	+	144	0
+
+> ~/src/dp410/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkControllerGemini.java
+	"	468	107
+	.	467	0
+	+	467	0
+
+> ~/src/dp410/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/__Tag_List__
+	"	208	4
+	.	310	0
+	+	311	0
+	+	757	0
+	+	482	0
+	+	491	0
+	+	569	0
+	+	628	0
+	+	1	0
+	+	173	0
+	+	232	0
+	+	310	0
+
+> ~/src/dp410/external/apache-http/src/org/apache/commons/logging/impl/SimpleLog.java
+	"	259	0
+
+> ~/src/dp410/frameworks/base/telephony/java/android/telephony/SignalStrength.java
+	"	534	15
+
+> ~/src/dp600/frameworks/base/telephony/java/android/telephony/PhoneStateListener.java
+	"	339	47
+	^	339	48
+	.	339	47
+	+	295	60
+	+	339	43
+	+	295	31
+	+	339	47
+
+> ~/src/dp600/frameworks/base/telephony/java/android/telephony/__Tag_List__
+	"	21	4
+	.	37	0
+	+	145	0
+	+	109	0
+	+	73	0
+	+	37	0
+
+> ~/src/dp600/frameworks/base/services/java/com/android/server/TelephonyRegistry.java
+	"	334	35
+
+> ~/src/dp600/frameworks/base/services/java/com/android/server/__Tag_List__
+	"	41	4
+	.	64	0
+	+	127	0
+	+	64	0
+
+> ~/src/dp501/frameworks/base/telephony/java/android/telephony/SignalStrength.java
+	"	370	19
+	^	370	20
+	.	370	19
+	+	370	19
+
+> ~/src/dp501/frameworks/base/telephony/java/android/telephony/__Tag_List__
+	"	58	4
+	.	83	0
+	+	165	0
+	+	83	0
+
+> ~/src/dp501/out/target/product/sangfei77_cu_ics2_mm.log
+	"	33	0
+
+> ~/src/dp410/frameworks/base/docs/html/sdk/api_diff/7/changes/pkg_android.telephony.html
+	"	84	18
+
+> ~/src/dp501/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkController.java
+	"	87	20
+	.	360	0
+	+	65	36
+	+	360	0
+
+> ~/src/dp501/frameworks/base/packages/SystemUI/Android.mk
+	"	1	0
+
+> ~/src/dp501/frameworks/base/packages/SystemUI/__Tag_List__
+	"	5	4
+	.	13	0
+	+	13	0
+
+> ~/src/dp410/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkController.java
+	"	345	0
+
+> /media/5AE04E48E04E2A99/my_document/Document/README.md
+	"	1	0
+
+> ~/src/dp501/packages/apps/Settings/src/com/android/settings/DeviceInfoSettings.java
+	"	103	55
+
+> ~/src/dp501/packages/apps/Settings/src/com/android/settings/__Tag_List__
+	"	45	4
+	.	58	0
+	+	1	0
+	+	58	0
+
+> ~/src/dp501/mediatek/config/sangfei77_cu_ics2/init.project.rc
+	"	41	3
+
+> ~/src/dp410/mediatek/.git/COMMIT_EDITMSG
+	"	2	13
+	^	2	14
+	.	2	13
+	+	8	13
+	+	7	19
+	+	6	21
+	+	5	17
+	+	4	8
+	+	3	8
+	+	2	13
+
+> ~/src/dp410/mediatek/.git/rebase-merge/git-rebase-todo
+	"	1	0

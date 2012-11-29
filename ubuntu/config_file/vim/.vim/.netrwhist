@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/muojie/src/dp501/mediatek/custom/common/kernel/lens/mt9p017af'
+let g:netrw_dirhist_2='/home/muojie/src/dp501/mediatek/custom/common/cgen/inc/audio'
+let g:netrw_dirhist_3='/home/muojie/src/dp501/mediatek/custom/common/kernel/imgsensor/mt9p017_raw'
+let g:netrw_dirhist_4='/home/muojie/src/dp501/mediatek/custom/sangfei77_cu_ics2/kernel'
+let g:netrw_dirhist_5='/home/muojie/src/dp501/mediatek/custom/sangfei77_cu_ics2/kernel/alsps'
+let g:netrw_dirhist_6='/home/muojie/src/dp501/frameworks/base/telephony'

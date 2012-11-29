@@ -1,0 +1,15 @@
+一 . 安装 ubuntu10.04.1
+     1. 准备grub4dos和 Ubuntu10.04.1
+     2. 将grub4dos下的grldr,menu.lst放在c盘下.
+     3. 修改menu.lst(添加:
+        title Install Ubuntu 10.04
+        root (hd0,0)
+        kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-10.04.1-desktop-i386.iso ro quiet     
+        splash locale=zh_CN.UTF-8
+        initrd (hd0,0)/initrd.lz
+        )
+     4. 解压ubuntu-10.04.1-desktop-i386.iso casper文件夹下面的vmlinuz和initrd.lz文件到E盘.
+     5. 修改boot.ini(我的电脑->系统屬性->高级->启动和恢复故障->编辑,在boot.ini中加入c:\grldr="ubuntu").
+     6. 重启电脑,选择ubuntu.输入命令sudo umount -l /isodevice.
+     7. 按照提示安装.http://wenku.baidu.com/view/42308c4ffe4733687e21aa35.html
+     8. 安装完后.重启,并执行 sudo update-grub

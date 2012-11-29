@@ -1,0 +1,106 @@
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+＃
+＃  update on 2012.3.20
+＃
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+
+一：Ubuntu系统的安装
+1：准备grub4dos和 Ubuntu10.04.1
+ 
+grub4dos的下载地址http://xiazai.zol.com.cn/detail/35/341709.shtml
+ubuntu10.04 系统的下载地址http://www.verycd.com/topics/2837618/
+
+2：解压并将grub4dos下的grldr和menu.lst放在c盘下
+
+3：修改menu.lst(添加:
+title Install Ubuntu 10.04
+        root (hd0,0)
+        kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-10.04.1-desktop-i386.iso ro quiet     splash locale=zh_CN.UTF-8
+        initrd (hd0,0)/initrd.lz
+        )
+ （注意：系统文件的名字要一致）  	
+
+4：解压ubuntu-10.04.1-desktop-i386.iso casper文件夹下面的vmlinuz和initrd.lz文件到E盘（比如你要把系统装在F盘上 可以把这些文件放在其他的盘上，一定不要放在F盘上）
+
+5：修改boot.ini(我的电脑->系统屬性->高级->启动和恢复故障->编辑,在boot.ini中加入c:\grldr="ubuntu").
+
+6：重启电脑,选择ubuntu.输入命令sudo umount -l /isodevice.
+ 
+
+7：按照提示安装    用户名和密码的输入 这个地方安装的时候要把空间设置尽量大点 >80G
+
+8：安装完后.重启,并执行 sudo update-grub
+
+
+二：Android开发环境的配置
+1、安装jdk6
+在Ubuntu软件中心搜索 JDK 安装OpenJDK Development kit(JDK)
+
+2、安装wine
+在ubuntu软件中心搜索wine，点击安装
+
+3、安装各种包和mingw32
+$ sudo apt-get install git-core gnupg flex bison gperf build-essential \zip curl zlib1g-dev libc6-dev libncurses5-dev x11proto-core-dev \libx11-dev libreadline6-dev libgl1-mesa-dev tofrodos python-markdown \libxml2-utils xsltproc
+
+
+$ sudo apt-get install mingw32
+
+
+安装交叉编译环境（用到的命令：移动一个文件夹temp到usr下到local文件夹下：sudo mv temp /usr/local/）：
+将/home/wbw/mtk6573/alps/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3 拷贝到/usr/local下，并在项目中更改配置：
+将/alps目录下的mbldenv.sh中PATH项添加/usr/local/arm-eabi-4.4.3/bin:
+
+解压缩代码文件：
+进入到压缩文件中，解压文件，输入以下命令行：
+$ tar -zxvf ALPS.GB.FDD2.MP.V4.5_NOLLEC73_GB_GPL.tar.gz 
+$ cat ALPS.GB.FDD2.MP.V4.5_NOLLEC73_GB_INHOUSE.tar.gz* | tar zxvf -
+
+4、修改代码（用到的命令,进入到某个文件夹alps：cd alps）
+    修改alps/mediatek/build/tools/checkEnv.py
+
+注释掉：
+#        if self.osBit != 64: 
+#            self.flag = "FAIL" 
+#            self.info = "android 2.3 only support 64 bits OS" 
+
+
+修改/alps/build/core/main.mk 注释掉（如果没有就不用修改）： 
+#ifneq (64,$(findstring 64,$(build_arch))) 
+#$(warning ************************************************************) 
+#$(warning You are attempting to build on a 32-bit system.) 
+#$(warning Only 64-bit build environments are supported beyond froyo/2.2.) 
+#$(warning ************************************************************) 
+#$(error stop) 
+#endif
+
+/alps/external/clearsilver/cgi/Android.mk 
+修改64为32： 
+LOCAL_CFLAGS += -m32 
+LOCAL_LDFLAGS += -m32
+
+/alps/external/clearsilver/java-jni/Android.mk
+修改64为32： 
+LOCAL_CFLAGS += -m32 
+LOCAL_LDFLAGS += -m32 
+
+alps/external/clearsilver/util/Android.mk
+修改64为32： 
+LOCAL_CFLAGS += -m32 
+LOCAL_LDFLAGS += -m32 
+
+/alps/external/clearsilver/cs/Android.mk
+修改64为32： 
+LOCAL_CFLAGS += -m32 
+LOCAL_LDFLAGS += -m32
+
+5、编译命令，第一个是项目，第二个是模拟器，第三个是mtk到模拟器：
+进入到alps文件夹下，输入以下命令
+$ ./makeMtk nollec73_gb new 
+$ ./makeMtk generic new
+$ ./makeMtk banyan_addon
+
+
+经常用到的命令，查看文件夹下到文件：$ ls
+进入到一个文件夹，如temp：$ cd temp
+加压一个tar文件temp：$ tar -zxvf temp
+
