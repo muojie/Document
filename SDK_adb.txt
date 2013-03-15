@@ -1,0 +1,25 @@
+我的系统是Ubuntu 11.04. 安装好Android SDK后，
+
+tools/android update sdk
+
+报错如下：
+
+[2011-11-18 14:35:54 - SDK Manager] Fetching https://dl-ssl.google.com/android/repository/addons_list-1.xml
+[2011-11-18 14:35:55 - SDK Manager] ERROR: Failed to fetch URL https://dl-ssl.google.com/android/repository/addons_list-1.xml, reason: hostname in certificate didn't match: <dl-ssl.google.com> != <*.doubleclick.net> OR <de.doubleclick.net> OR <*.cc-dt.com> OR <doubleclick.net> OR <fr.doubleclick.net> OR <*.uk.doubleclick.net> OR <jp.doubleclick.net> OR <*.doubleclick.net> OR <*.de.doubleclick.net> OR <*.fr.doubleclick.net> OR <*.au.doubleclick.net> OR <au.doubleclick.net> OR <uk.doubleclick.net> OR <*.doubleclick.com> OR <*.jp.doubleclick.net>
+[2011-11-18 14:35:55 - SDK Manager] Fetched Add-ons List successfully
+[2011-11-18 14:35:55 - SDK Manager] Fetching URL: https://dl-ssl.google.com/android/repository/repository-5.xml
+[2011-11-18 14:35:55 - SDK Manager] ERROR: Failed to fetch URL https://dl-ssl.google.com/android/repository/repository-5.xml, reason: hostname in certificate didn't match: <dl-ssl.google.com> != <*.doubleclick.net> OR <de.doubleclick.net> OR <*.cc-dt.com> OR <doubleclick.net> OR <fr.doubleclick.net> OR <*.uk.doubleclick.net> OR <jp.doubleclick.net> OR <*.doubleclick.net> OR <*.de.doubleclick.net> OR <*.fr.doubleclick.net> OR <*.au.doubleclick.net> OR <au.doubleclick.net> OR <uk.doubleclick.net> OR <*.doubleclick.com> OR <*.jp.doubleclick.net>
+[2011-11-18 14:35:55 - SDK Manager] Done loading packages.
+[2011-11-18 15:19:05 - SDK Manager] Fetching https://dl-ssl.google.com/android/repository/addons_list-1.xml
+[2011-11-18 15:19:05 - SDK Manager] ERROR: Failed to fetch URL https://dl-ssl.google.com/android/repository/addons_list-1.xml, reason: hostname in certificate didn't match: <dl-ssl.google.com> != <*.doubleclick.net> OR <de.doubleclick.net> OR <*.cc-dt.com> OR <doubleclick.net> OR <fr.doubleclick.net> OR <*.uk.doubleclick.net> OR <jp.doubleclick.net> OR <*.doubleclick.net> OR <*.de.doubleclick.net> OR <*.fr.doubleclick.net> OR <*.au.doubleclick.net> OR <au.doubleclick.net> OR <uk.doubleclick.net> OR <*.doubleclick.com> OR <*.jp.doubleclick.net>
+[2011-11-18 15:19:05 - SDK Manager] Fetched Add-ons List successfully
+[2011-11-18 15:19:05 - SDK Manager] Fetching URL: https://dl-ssl.google.com/android/repository/repository-5.xml
+[2011-11-18 15:19:06 - SDK Manager] ERROR: Failed to fetch URL https://dl-ssl.google.com/android/repository/repository-5.xml, reason: hostname in certificate didn't match: <dl-ssl.google.com> != <*.doubleclick.net> OR <de.doubleclick.net> OR <*.cc-dt.com> OR <doubleclick.net> OR <fr.doubleclick.net> OR <*.uk.doubleclick.net> OR <jp.doubleclick.net> OR <*.doubleclick.net> OR <*.de.doubleclick.net> OR <*.fr.doubleclick.net> OR <*.au.doubleclick.net> OR <au.doubleclick.net> OR <uk.doubleclick.net> OR <*.doubleclick.com> OR <*.jp.doubleclick.net>
+[2011-11-18 15:19:06 - SDK Manager] Done loading packages.
+[2011-11-18 15:58:53 - SDK Manager] Fetching https://dl-ssl.google.com/android/repository/addons_list-1.xml
+[2011-11-18 15:58:53 - SDK Manager] ERROR: Failed to fetch URL https://dl-ssl.google.com/android/repository/addons_list-1.xml, reason: hostname in certificate didn't match: <dl-ssl.google.com> != <*.doubleclick.net> OR <de.doubleclick.net> OR <*.cc-dt.com> OR <doubleclick.net> OR <fr.doubleclick.net> OR <*.uk.doubleclick.net> OR <jp.doubleclick.net> OR <*.doubleclick.net> OR <*.de.doubleclick.net> OR <*.fr.doubleclick.net> OR <*.au.doubleclick.net> OR <au.doubleclick.net> OR <uk.doubleclick.net> OR <*.doubleclick.com> OR <*.jp.doubleclick.net>
+[2011-11-18 15:58:53 - SDK Manager] Fetched Add-ons List successfully
+看了一下错误，应该是https的问题，google一番，最终找到一个可行的解决方案
+创建文件：  ~/.android/androidtool.cfg
+内容： sdkman.force.http=true 
+保存，搞定～～

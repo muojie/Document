@@ -1,0 +1,46 @@
+I/MDLOGGER(  205): Select CCCI port no trigger: timeout for 5 times
+D/WindowManager(  267): interceptKeyTq keycode=82 screenIsOn=true keyguardActive=false policyFlags = #2000100 down =true canceled = false
+D/PowerManagerService(  267): acquireWakeLock flags=0x1 tag=*vibrator*
+D/dalvikvm(  267): threadid=72: interp stack at 0x4d332000
+D/InputManager-JNI(  267): pokeUserActivity : eventType=1
+D/PowerManagerService(  267): userActivity mLastEventTime=2752583 time=2769290 mUserActivityAllowed=true mUserState=0x3 mWakeLockState=0x0 mProximitySensorActive=false mProximitySensorEnabed=false timeoutOverride=-1 force=false
+D/PowerManagerService(  267): reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=false
+D/PowerManagerService(  267): setPowerState: mPowerState=0x3 newState=0x7 noChangeLights=false reason=2
+D/WindowManager(  267): interceptKeyTq keycode=82 screenIsOn=true keyguardActive=false policyFlags = #2000100 down =false canceled = false
+D/PowerManagerService(  267): setPowerState: mPowerState=3 newState=7 noChangeLights=false
+D/PowerManagerService(  267):   oldKeyboardBright=false newKeyboardBright=false
+D/PowerManagerService(  267):   oldScreenBright=true newScreenBright=true
+D/PowerManagerService(  267):   oldButtonBright=false newButtonBright=true
+D/PowerManagerService(  267):   oldScreenOn=true newScreenOn=true
+D/PowerManagerService(  267):   oldBatteryLow=false newBatteryLow=false
+D/PowerManagerService(  267): offMask=0x0 dimMask=0x0 onMask=0x4 difference=0x4 realDifference=0x4 forceState=0x0
+I/PowerManagerService(  267): Setting brightess on 102: 4
+D/PowerManagerService(  267): setTimeoutLocked now=2769290 timeoutOverride=-1 nextState=3 when=2775290
+D/WindowManager(  267): interceptKeyTi keyCode=82 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+D/InputManager-JNI(  267): pokeUserActivity : eventType=1
+D/InputManager-JNI(  267): pokeUserActivity : eventType=1
+D/WindowManager(  267): interceptKeyTi keyCode=82 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+I/InputDispatcher(  267): Waiting because focused window still processing previous input.
+V/Provider/Setting(  513): invalidate [system]: current 1 != cached 0
+D/Settings/Provide(  267): lookupValue, table system cache.containsKey auto_caps
+D/Settings/Provide(  267): lookupValue, table system cache.fullyMatchesDisk() auto_caps
+D/Settings/Provide(  267): lookupValue, table system cache.containsKey auto_replace
+D/Settings/Provide(  267): lookupValue, table system cache.fullyMatchesDisk() auto_replace
+D/Settings/Provide(  267): lookupValue, table system cache.containsKey auto_punctuate
+D/Settings/Provide(  267): lookupValue, table system cache.fullyMatchesDisk() auto_punctuate
+D/Settings/Provide(  267): lookupValue, table system cache.containsKey show_password
+D/Settings/Provide(  267): lookupValue, table system cache.fullyMatchesDisk() show_password
+D/dalvikvm(  267): threadid=72: calling run()
+D/InputManager-JNI(  267): pokeUserActivity : eventType=1
+I/SurfaceFlinger(  106): [SurfaceFlinger] frames:2, duration:1.002000, fps:1.995743
+D/PowerManagerService(  267): releaseWakeLock flags=0x1 tag=*vibrator* total_time=97ms
+D/dalvikvm(  267): threadid=72: exiting
+D/dalvikvm(  267): threadid=72: bye!
+D/dalvikvm(  267): threadid=0: freeing
+V/WindowManager(  267): Changing focus from Window{420b1240 com.dx.sanxing.launcher2/com.dx.sanxing.launcher2.Launcher paused=false} to Window{42539c38 AtchDlg:com.dx.sanxing.launcher2/com.dx.sanxing.launcher2.Launcher paused=false}
+I/WindowManager(  267): Gaining focus: Window{42539c38 AtchDlg:com.dx.sanxing.launcher2/com.dx.sanxing.launcher2.Launcher paused=false}
+D/Settings/Provide(  267): lookupValue, table system cache.containsKey sound_effects_enabled
+D/dalvikvm(  513): GC_CONCURRENT freed 1416K, 9% free 16552K/18103K, paused 2ms+4ms
+I/SurfaceTexture(  106): [AtchDlg:com.dx.sanxing.launcher2/com.dx.sanxing.launcher2.Launcher(0x10b69d0)] connect: api=1
+I/SurfaceFlinger(  106): [SurfaceFlinger] frames:19, duration:1.004000, fps:18.921963
+

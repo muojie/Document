@@ -1,0 +1,10 @@
+ptgen 是patition generater的缩写。
+主要是执行了ptgen.pl
+	This script will generate partition layout files
+
+这一步就是根据mediatek/build/tools/ptgen/MT65xx/partition_table_MT65xx.xls
+生成mediatek/source/misc/MT65xx_Android_scatter_emmc.txt
+
+.txt文件是烧机时用的，大概指出了各分区的大小等情况。
+
+

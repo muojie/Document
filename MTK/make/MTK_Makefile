@@ -1,0 +1,25 @@
+
+~/src/alps/kenrel$ make TARGET_PRODUCT=nollec73_gb xconfig
+
+
+MTK的板级文件存放目录：
+/mediatek/platform/mt6573/kernel/core$
+/mediatek/custom/nollec73_gb/kernel/core/src/board.c
+
+MTK kernel的配置文件(Kconfig)：
+/mediatek/config/nollec73_gb/autoconfig/kconfig/project
+
+MTK kernel 源文件存放目录：
+/mediatek/custom/common/kernel/
+
+MTK kernel 头文件存放目录:
+/mediatek/custom/[project]/kernel/
+
+MTK kernel 会被链接到目录：
+/mediatek/custom/out/[project]/kernel/
+
+
+
+
+
+

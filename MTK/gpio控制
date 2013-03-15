@@ -1,0 +1,3 @@
+在/sys/devices/virtual/misc/mtgpio目录下执行：
+
+echo -w=96: 0 1 1 0 1 1 0 > pin
